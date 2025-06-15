@@ -1,0 +1,33 @@
+# Ignore model training and data files
+ml-model-training/
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments and environment files
+venv/
+.env
+
+# Ignore OS and editor files
+.DS_Store
+*.swp
+*.bak
+
+# Ignore git files
+.git/
+.gitignore
+
+# Ignore documentation and setup scripts (optional)
+README.md
+
+# Ignore all assets except more_info.jpg
+assets/*
+!assets/more_info.jpg
+
+# Ignore all models except required .pkl files
+models/*
+!models/movies_dict.pkl
+!models/similarity.pkl
