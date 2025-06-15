@@ -103,7 +103,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.markdown('<div class="main-title">🎬 Movie Recommender</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-title">🍿 Popcorn Picks</div>', unsafe_allow_html=True)
 st.markdown("##### Select a movie you like and get recommendations with details:")
 
 selected_movie_name = st.selectbox(
